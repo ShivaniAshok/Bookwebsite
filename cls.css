@@ -1,0 +1,186 @@
+html {
+    box-sizing: border-box;
+   font-size: 62.5%;
+    scroll-behavior: smooth; 
+  }
+  body {
+    color:white;
+     font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4; 
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .nav{
+    display:flex;
+    background:#cc0000;
+    color:white;
+   justify-content: flex-end;
+    position: fixed; 
+    top:0;
+    left:0;
+    width:100%;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index:10;
+  }
+  .navlist{
+    display:flex;
+    margin-right:2rem;
+     margin: 0 1rem;
+   
+  }
+  .navlist a {
+    display: block;
+   font-size: 2.2rem;
+    padding: 2rem;
+  }
+  .navlist a:hover {
+    background: #45567d;
+  }
+  .welcome{
+    margin-top:60px;
+    background-repeat:no-repeat;
+      background-size: 1250px 660px;
+    background-image:url("https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8OHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 100vh;
+   
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+   p {
+     text-align:right;
+    font-size: 1.5rem;
+   
+    font-style: italic;
+    color: black;
+  }
+  .boooks{
+    text-align: center;
+   
+    padding: 10rem 2rem;
+    background:#ccddff;
+    
+  }
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    
+  }
+  .books {
+    background: var(--main-gray);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  
+  .code {
+    color:white ;
+    transition: color 0.3s ease-out;
+  }
+  
+  .boooks:hover .code {
+    color: black;
+  }
+  
+  .book-img {
+    height: calc(100% - 6.8rem);
+    width:100%;
+    object-fit: cover;
+  }
+  .img-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+   
+  }
+  
+  .quote{
+  
+    color:white;
+    font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  }
+  h1{
+    font-weight: 700;
+    color:white;
+    margin-right: 60px;
+    font-family:'Raleway', sans-serif;
+    text-align: right;
+     font-size: 6rem;
+  }
+  
+  .book-link {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  
+  .explore {
+    font-size: 2rem;
+    background:#303841 ;
+    transition: 0.3s ease-out;
+  }
+  .explore:hover {
+    background:#cc0000 ;
+  }
+  .img-title{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+   .explore{
+    margin-left: 75px;
+   }
+  .explore > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+  .contact{
+    display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    height: 300px;
+    text-align: center;
+    background:#303841;
+  }
+  .contact-link{
+  display:flex;
+    justify-content: center; 
+    margin-top: 4rem;
+  }
+  .contact-details{
+    font-size: 2.4rem;
+   text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    padding:50px;
+  }
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  a {
+    text-decoration: none;
+   color:white;
+  }
